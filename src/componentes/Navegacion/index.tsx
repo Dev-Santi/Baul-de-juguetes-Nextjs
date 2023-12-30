@@ -4,6 +4,7 @@ import { IoPersonCircleOutline } from 'react-icons/io5';
 import { BsFillHandbagFill } from 'react-icons/bs';
 import Link from 'next/link';
 import Menu from './Menu';
+import BolsoDeCompras from './BolsoDeCompras';
 
 export default function Navegacion() {
     return (
@@ -19,9 +20,7 @@ export default function Navegacion() {
                     <IoPersonCircleOutline />
                     Iniciar sesión
                 </Link>
-                <button className={estilos.bolso}>
-                    <BsFillHandbagFill />
-                </button>
+                <BolsoDeCompras />
             </div>
         </nav>
     );

@@ -32,8 +32,23 @@
 }
 
 .bolso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+    cursor: pointer;
+
+    position: relative;
     color: var(--amarillo);
     font-size: 4.5rem;
+}
+
+.bolso .numero {
+    margin-top: 1.4rem;
+    position: absolute;
+    font-size: 2rem;
+    color: var(--blanco);
 }
 
 .menu {
@@ -50,10 +65,10 @@
     color: var(--azul);
 }
 
-.menu li .active {
+.menu li .activo {
     color: var(--rojo);
 }
 
-.menu li .active:hover {
+.menu li .activo:hover {
     color: var(--rojo);
 }

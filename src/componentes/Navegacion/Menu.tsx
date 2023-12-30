@@ -12,7 +12,7 @@ export default function Menu() {
         const esLaRutaCorrecta = path == rutaActual;
 
         if (esLaRutaCorrecta) {
-            return estilos.active;
+            return estilos.activo;
         }
     }
 
