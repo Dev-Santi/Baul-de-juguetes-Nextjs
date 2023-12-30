@@ -1,0 +1,59 @@
+.navegacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    color: var(--azul);
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: 0.25rem;
+}
+
+.login svg {
+    font-size: 5rem;
+}
+
+.login:hover {
+    cursor: pointer;
+    opacity: 0.65;
+}
+
+.bolso {
+    color: var(--amarillo);
+    font-size: 4.5rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: 0.25rem;
+}
+
+.menu li a:hover {
+    color: var(--azul);
+}
+
+.menu li .active {
+    color: var(--rojo);
+}
+
+.menu li .active:hover {
+    color: var(--rojo);
+}
